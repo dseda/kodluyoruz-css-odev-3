@@ -1,0 +1,252 @@
+* {
+  margin-inline: 0;
+  margin-block: 0;
+  padding-block: 0;
+  padding-inline: 0;
+}
+li {
+  list-style-type: none;
+}
+body {
+  width: 100%;
+}
+input {
+  width: 480px;
+  border: none;
+}
+header {
+  margin: 0 auto;
+  padding: 0;
+  width: 100%;
+}
+.header {
+  list-style-type: none;
+  margin: 15px auto;
+  overflow: hidden;
+  font-family: arial, sans-serif;
+  font-size: 13px;
+  padding: 6px;
+}
+
+.header li {
+  padding: 4px;
+}
+.header li a {
+  text-decoration: none;
+  font-size: 13px;
+  color: #202124;
+}
+.header li a:hover {
+  text-decoration: underline;
+}
+li.apps-icon a span {
+  fill: currentColor;
+  color: rgb(95, 99, 104);
+  width: 24px;
+  display: inline-block;
+  position: relative;
+}
+
+li.apps-icon {
+  border-radius: 50%;
+  padding: 7px 8px;
+  margin-top: -5px;
+}
+li.apps-icon:hover {
+  background-color: rgba(60, 64, 67, 0.08);
+}
+.header li:nth-of-type(1),
+.header li:nth-of-type(2) {
+  float: left;
+  margin-left: 14px;
+}
+.header li:nth-of-type(3),
+.header li:nth-of-type(4),
+.header li:nth-of-type(5),
+.header li:nth-of-type(6) {
+  float: right;
+  margin-left: 14px;
+  padding: auto 0;
+}
+.header li:nth-of-type(3),
+.header li:nth-of-type(4) {
+  margin-left: 14px;
+}
+
+.header li a img {
+  width: 30px;
+  border-radius: 50%;
+  margin-top: -5px;
+}
+
+.container {
+  text-align: center;
+  margin: 80px auto 20px;
+}
+.container img {
+  width: 272px;
+}
+.search-area {
+  background: #fff;
+  display: flex;
+  border: 1px solid #dfe1e5;
+  border-radius: 30px;
+  box-shadow: none;
+  height: 44px;
+  margin: 20px auto;
+  width: 570px;
+}
+
+.search-area:hover {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.24), 0 2px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+.search {
+  flex: 1;
+  display: flex;
+  padding: 5px 8px 0 16px;
+  padding-left: 14px;
+}
+
+.search-img {
+  display: flex;
+  align-items: center;
+  padding-right: 13px;
+  margin-top: -5px;
+}
+
+.search-img span {
+  color: #9aa0a6;
+  height: 20px;
+  width: 20px;
+  margin-top: 0px;
+  display: inline-block;
+  fill: currentColor;
+  line-height: 24px;
+  position: relative;
+}
+
+.input-enter {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+}
+
+.input-area {
+  color: transparent;
+  flex: 100%;
+  white-space: pre;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  display: block;
+}
+
+.input {
+  margin: 0;
+  padding: 0;
+  color: rgba(0, 0, 0, 0.87);
+  word-wrap: break-word;
+  outline: none;
+  display: flex;
+  flex: 100%;
+  margin-top: -68px;
+  font: 16px arial, sans-serif;
+  line-height: 34px;
+  height: 34px !important;
+  text-rendering: auto;
+  letter-spacing: normal;
+  word-spacing: normal;
+  text-transform: none;
+  text-indent: 0px;
+  text-shadow: none;
+  text-align: start;
+  appearance: textfield;
+  cursor: text;
+}
+.mic {
+  width: 25px;
+  float: right;
+  padding-top: 5px;
+  padding-right: 5px;
+}
+.mic img {
+  max-width: 100%;
+}
+.googlesearch {
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+.buttons {
+  margin: 0 auto;
+  width: fit-content;
+}
+.buttons button {
+  border: 1px solid transparent;
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  color: #3c4043;
+  font-size: 14px;
+  margin: 11px 4px;
+  padding: 0 16px;
+  line-height: 27px;
+  height: 36px;
+  min-width: 54px;
+}
+.buttons a button:hover {
+  box-shadow: 0 1px 1px rgb(0 0 0 / 10%);
+  background-color: #f8f9fa;
+  border: 1px solid #dadce0;
+  color: #202124;
+}
+.feelinglucky {
+  padding: 0 16px;
+  line-height: 27px;
+  min-width: 54px;
+  text-align: center;
+  cursor: pointer;
+  user-select: none;
+}
+
+footer {
+  margin: 0 auto;
+  overflow: hidden;
+  border: 1px solid #dfe1e5;
+  border-top: 1px solid #dadce0;
+  background-color: rgb(242, 242, 242);
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+footer nav ul {
+  padding: 0 20px;
+}
+footer nav ul li:nth-of-type(1),
+footer nav ul li:nth-of-type(2),
+footer nav ul li:nth-of-type(3) {
+  float: left;
+}
+
+footer nav ul li:nth-of-type(4),
+footer nav ul li:nth-of-type(5),
+footer nav ul li:nth-of-type(6) {
+  float: right;
+}
+
+footer nav ul li a {
+  display: block;
+  color: #70757a;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: arial, sans-serif;
+  font-size: 14px;
+}
+footer nav ul li a:hover {
+  text-decoration: underline;
+}
